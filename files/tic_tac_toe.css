@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Tangerine', serif;
+}
+body{
+    background: rgb(39,42,158);
+    background: linear-gradient(90deg, rgba(39,42,158,1) 0%, rgba(141,84,233,1) 31%, rgba(46,191,218,1) 71%, rgba(211,236,240,1) 100%);
+}
+h1 {
+    text-align: center;
+    padding: 15px;
+    color: white;
+    font-family: 'Tangerine', serif;
+    font-size: 60px;
+    text-shadow: 4px 4px 4px rgb(66, 47, 47);
+}
+#reset{
+    float: right;
+    font-size: xx-large;
+    border: 3px solid black;
+    padding: 5px;
+    margin: 15px;
+    font-weight: bold;
+    border-radius: 30%;
+    background-color: rgb(123, 123, 230);
+}
+#reset:hover{
+    cursor: pointer;
+    background-color: burlywood;
+}
+#one,#two,#score1,#score2{
+    font-size: xx-large;
+    font-weight: bold;
+    color: rgb(202, 179, 87);
+    text-shadow: 4px 4px 4px rgb(66, 47, 47);
+    padding: 5px;
+}
+button{
+    width: 95px;
+    height: 95px;
+    margin: 5px;
+    font-size: 40px;
+    font-weight: bold;
+    outline: none;
+    text-shadow: 4px 4px 4px rgb(66, 47, 47);
+    background-color: rgb(152, 112, 216);
+    border-radius: 1.5rem;
+}
+button:hover{
+    font-size: 60px;
+    color: springgreen;
+}
+#outer{
+    margin: 0px auto;
+    background-color: black;
+    width: 315px;
+    border-radius: 1.5rem;
+}
+#dispwinner{
+    width: 180px;
+    margin: 10px auto;
+    border: 5px solid black;
+    background-color: cornsilk;
+    font-size: 34px;
+    font-weight: bold;
+    border-radius: 1.5rem;
+}
