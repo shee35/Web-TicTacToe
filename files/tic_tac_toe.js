@@ -18,12 +18,16 @@ for( let i=0; i<3; i++){
        arr[i][j].click(function(){
            if(count<9){
             if(count%2==0){
-                count++;
-                arr[i][j].html("X");
+                if(!checkoccupied(arr[i][j])){
+                    count++;
+                    arr[i][j].html("X");
+                }
             }
             else {
-                count++;
-                arr[i][j].html("O");
+                if(!checkoccupied(arr[i][j])){
+                    count++;
+                    arr[i][j].html("O");
+                }
             }
            }
           else{
@@ -122,3 +126,7 @@ function checkWinner(){
 
     }
 };
+function checkoccupied(x){
+    if(x.text()==="X"|| x.text()==='O')
+    return true;
+}
