@@ -63,7 +63,6 @@ function checkWinner(){
         if((arr[0][i].html()=="X")&&(arr[1][i].html()=="X")&&(arr[2][i].html()=="X")){
             Player1Score+=1;
             player1.text(Player1Score);
-            console.log(Player1Score);
             winrtxt.html(" 'X' is the winner!! ");
             resetboard();
         }
@@ -71,7 +70,6 @@ function checkWinner(){
         else if((arr[0][i].html()=="O")&&(arr[1][i].html()=="O")&&(arr[2][i].html()=="O")){
             Player2Score+=1;
             player2.text(Player2Score);
-            console.log(Player2Score);
             winrtxt.html(" 'O' is the winner!! ");
             resetboard();
         }
@@ -79,7 +77,6 @@ function checkWinner(){
         else if((arr[i][0].html()=="X")&&(arr[i][1].html()=="X")&&(arr[i][2].html()=="X")){
             Player1Score+=1;
             player1.text(Player1Score);
-            console.log(Player1Score);
             winrtxt.html(" 'X' is the winner!! ");
             resetboard();
         }
@@ -87,7 +84,6 @@ function checkWinner(){
         else if((arr[i][0].html()=="O")&&(arr[i][1].html()=="O")&&(arr[i][2].html()=="O")){
             Player2Score+=1;
             player2.text(Player2Score);
-            console.log(Player2Score);
             winrtxt.html(" 'O' is the winner!! ");
             resetboard();
         } 
@@ -95,7 +91,6 @@ function checkWinner(){
         else if((arr[0][0].html()=="X")&&(arr[1][1].html()=="X")&&(arr[2][2].html()=="X")){
             Player1Score+=1;
             player1.text(Player1Score);
-            console.log(Player1Score);
             winrtxt.html(" 'X' is the winner!! ");
             resetboard();
         }
@@ -103,7 +98,6 @@ function checkWinner(){
         else if((arr[0][0].html()=="O")&&(arr[1][1].html()=="O")&&(arr[2][2].html()=="O")){
             Player2Score+=1;
             player2.text(Player2Score);
-            console.log(Player2Score);
             winrtxt.html(" 'O' is the winner!! ");
             resetboard();
         }
@@ -111,7 +105,6 @@ function checkWinner(){
         else if((arr[0][2].html()=="X")&&(arr[1][1].html()=="X")&&(arr[2][0].html()=="X")){
             Player1Score+=1;
             player1.text(Player1Score);
-            console.log(Player1Score);
             winrtxt.html(" 'X' is the winner!! ");
             resetboard();
         }
@@ -119,11 +112,10 @@ function checkWinner(){
         else if((arr[0][2].html()=="O")&&(arr[1][1].html()=="O")&&(arr[2][0].html()=="O")){
             Player2Score+=1;
             player2.text(Player2Score);
-            console.log(Player2Score);
             winrtxt.html(" 'O' is the winner!! ");
             resetboard();
         }
-
+        
     }
 };
 function checkoccupied(x){
